@@ -1,0 +1,220 @@
+body {
+  position: relative;
+}
+h1 {
+  font-weight:bold;
+}
+h2 {
+  padding: 0 0 25px 0;
+  font-weight:bold;
+}
+header {}
+/*li.page-scroll:hover {
+  font-size: 1.5em;
+  font-weight:bold;
+}*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  font-size: 1.5em;
+  font-weight:bold;
+  background-color: transparent;
+}
+
+.focusPage {
+  font-size:1.5em;
+  font-weight:bold;
+}
+section {
+  height: 1000px;
+}
+.transitionIt  {
+  -webkit-transition: all ease 0.9s;
+  -moz-transition: all ease 0.9s;
+  -o-transition: all ease 0.9s;
+  -ms-transition: all ease 0.9s;
+  transition: all ease 0.9s;
+}
+.transitionItFast  {
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+#chooseIt {
+  margin: 0px auto;
+  Height: 200px;
+  width: 200px;
+  background-color: #0086BF;
+  -webkit-transition: all ease 0.9s;
+  -moz-transition: all ease 0.9s;
+  -o-transition: all ease 0.9s;
+  -ms-transition: all ease 0.9s;
+  transition: all ease 0.9s;
+}
+#chooseIt-image  {
+  width: 200px;
+  height: 200px;
+  padding: 25px;
+}
+#portfolio {
+  padding: 50px 0 25px 0;
+}
+
+#about {
+  padding: 50px 0 25px 0;
+}
+
+#contact {
+  padding: 50px 0 25px 0;
+}
+.navbar {
+  background-color: #0086BF;
+}
+.jumbotron {
+  background-color: #2C2B3C;
+}
+.me {
+  background-image: url("https://res.cloudinary.com/tysonleegriffin/image/upload/v1455683622/Codepen/twiffin.png");
+  height: 200px;
+  width: 200px;
+  background-size: 180px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.rowMargin {
+  margin-top: 25px;
+}
+.project-slide {
+  /*background-image: url('http://placehold.it/250x250');*/
+  height: 250px;
+  width: 250px;
+}
+.project-slide:hover {
+ /* background-position: 0px -250px;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.8);*/
+}
+.projectContainer {
+  position: relative;
+}
+.projectShape  {
+  position:relative;
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+}
+.projectTitle {
+  z-index:99;
+  position: absolute;
+  left: 35px;
+  top: 100px;
+  height: 45px; 
+  width: 175px;
+  opacity: .75;
+  background-color: #000;
+  font-size: 1.5em;
+  padding: 10px;
+  overflow: hidden;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+.projectTitle:hover {
+  left: 0;
+  top: 0;
+  padding: 30px 25px;
+  height: 250px;
+  width: 250px;
+}
+.projectIframe-window {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+}
+.projectIframe  {
+  height: 250px;
+  width: 250px;
+}
+#contact .col-md-8 > div {
+  height: 100%;
+}
+.social-slide {
+  background-image: url('https://res.cloudinary.com/tysonleegriffin/image/upload/v1455682815/Codepen/social_icons.png');
+  height: 100%;
+  width: 100%;
+  max-width: 100px;
+  margin: 10px;
+  float: left;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+.social-slide:hover {
+  background-position-y: -100px;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.8);
+}
+.codepen-hover {
+  background-position-x: -100px;
+}
+.freeCodeCamp-hover {
+  background-position-x: -200px;
+}
+.linkedin-hover {
+  background-position-x: -300px;
+}
+.github-hover {
+  background-position-x: -400px;
+}
+.email-hover  {
+  background-position-x: 100px;
+}
+.shapeP {
+  background-color: #0086BF;
+}
+.shapeS {}
+
+.circle {
+  border-radius: 50%;
+}
+.noCircle {
+  border-radius: 0% !important;
+}
+.square {
+  border-radius: 0%;
+}
+.whiteFont {
+    color: white !important;
+}
+.arvoFont {
+font-family: 'Arvo', serif;
+}
+.orangeP {
+  background-color: #ff7f00 !important;
+}
+.orangeS {
+  background-color: #211103  !important
+}
+.orangeFont {
+  color: #ff7f00 !important;
+}
+.greenP {
+  background-color: #53752c !important;
+}
+.greenS{
+  background-color: #4c5454 !important;
+}
+.greenFont {
+  color: #53752c !important;
+}
+.blueP {
+  background-color: #0086BF !important;
+}
+.blueS{
+  background-color: #2C2B3C !important;
+}
+.blueFont {
+  color: #0086BF !important;
+}
