@@ -1,2 +1,2 @@
 # Personal Website
-My Personal website work stil in progress.
+My Personal website work still in progress.
